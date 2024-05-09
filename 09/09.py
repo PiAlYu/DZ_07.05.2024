@@ -10,7 +10,7 @@ def f1(l):
     for i in l:
         if l.count(i) >= 2:
             k.append(i)
-    return sum(k) < ((sum(l) - sum(k)) / 7)
+    return sum(k) < ((sum(l) - sum(k)) / 3)
 
 fin = open('09.csv')
 a = fin.readlines()
